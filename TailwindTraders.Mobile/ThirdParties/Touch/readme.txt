@@ -1,1 +1,0 @@
-Modified version of https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/effects/touch-tracking

@@ -1,8 +1,0 @@
-﻿Dear Developer,
-
-Since some resources are available in xxxhdpi but some others not, we won't use such —having into account too our 
-target's a technical demo.
-
-Thanks,
-
-—A Developer
