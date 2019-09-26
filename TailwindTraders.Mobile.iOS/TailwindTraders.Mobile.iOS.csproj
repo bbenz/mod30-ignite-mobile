@@ -359,6 +359,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.AppCenter.Push">
+      <Version>2.1.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.Azure.Storage.Blob">
       <Version>11.0.0</Version>
     </PackageReference>
@@ -390,13 +393,13 @@
       <Version>4.2.0.778463</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Crashes">
-      <Version>1.14.0</Version>
+      <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
-      <Version>1.14.0</Version>
+      <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Distribute">
-      <Version>1.14.0</Version>
+      <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.TestCloud.Agent">
       <Version>0.21.7</Version>
