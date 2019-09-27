@@ -30,8 +30,6 @@ namespace TailwindTraders.Mobile.IOS
 
             RegisterPlatformServices();
 
-            InitTensorflowService();
-
             Distribute.DontCheckForUpdatesInDebug();
 #if ENABLE_TEST_CLOUD
             Xamarin.Calabash.Start();
@@ -66,20 +64,12 @@ namespace TailwindTraders.Mobile.IOS
             CarouselView.FormsPlugin.iOS.CarouselViewRenderer.Init();
             SharpnadoInitializer.Initialize();
             TouchRecognizer.Initialize();
-            TensorflowLiteService.DoNotStripMe();
         }
 
         private void RegisterPlatformServices()
         {
             DependencyService.Register<IXSnack, XSnackImplementation>();
             DependencyService.Register<IPlatformService, PlatformService>();
-            DependencyService.Register<TensorflowLiteService, TensorflowLiteService>();
-        }
-
-        private void InitTensorflowService()
-        {
-            var tensorflowLiteService = DependencyService.Get<TensorflowLiteService>();
-            tensorflowLiteService.Initialize(tensorflowLiteService.LabelFilename, tensorflowLiteService.ModelFilename);
         }
     }
 }
