@@ -4,6 +4,7 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.AppCenter.Distribute;
+using Microsoft.AppCenter.Push;
 using TailwindTraders.Mobile.Features.Settings;
 
 namespace TailwindTraders.Mobile.Features.Logging
@@ -17,7 +18,8 @@ namespace TailwindTraders.Mobile.Features.Logging
                 $"ios={DefaultSettings.AppCenteriOSSecret}​;android={DefaultSettings.AppCenterAndroidSecret}",
                 typeof(Analytics),
                 typeof(Crashes),
-                typeof(Distribute));
+                typeof(Distribute),
+                typeof(Push));
         }
 
         public void Debug(string message)

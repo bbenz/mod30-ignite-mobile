@@ -2213,6 +2213,131 @@ namespace TailwindTraders.Mobile.Droid
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::TailwindTraders.Mobile.Droid.Resource.String.appcenter_distribute_update_failed_dialog_message;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::TailwindTraders.Mobile.Droid.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::TailwindTraders.Mobile.Droid.Resource.String.appcenter_distribute_update_failed_dialog_title;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.font = global::TailwindTraders.Mobile.Droid.Resource.Attribute.font;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontProviderAuthority = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontProviderCerts = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontProviderCerts;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontProviderFetchStrategy = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontProviderFetchTimeout = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontProviderPackage = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontProviderPackage;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontProviderQuery = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontProviderQuery;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontStyle = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontStyle;
+			global::Microsoft.AppCenter.Push.Android.Resource.Attribute.fontWeight = global::TailwindTraders.Mobile.Droid.Resource.Attribute.fontWeight;
+			global::Microsoft.AppCenter.Push.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::TailwindTraders.Mobile.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.notification_action_color_filter = global::TailwindTraders.Mobile.Droid.Resource.Color.notification_action_color_filter;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.notification_icon_bg_color = global::TailwindTraders.Mobile.Droid.Resource.Color.notification_icon_bg_color;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.notification_material_background_media_default_color = global::TailwindTraders.Mobile.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.primary_text_default_material_dark = global::TailwindTraders.Mobile.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.ripple_material_light = global::TailwindTraders.Mobile.Droid.Resource.Color.ripple_material_light;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.secondary_text_default_material_dark = global::TailwindTraders.Mobile.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Microsoft.AppCenter.Push.Android.Resource.Color.secondary_text_default_material_light = global::TailwindTraders.Mobile.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::TailwindTraders.Mobile.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.compat_button_inset_vertical_material = global::TailwindTraders.Mobile.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::TailwindTraders.Mobile.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.compat_button_padding_vertical_material = global::TailwindTraders.Mobile.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.compat_control_corner_material = global::TailwindTraders.Mobile.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_action_icon_size = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_action_text_size = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_action_text_size;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_big_circle_margin = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_content_margin_start = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_large_icon_height = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_large_icon_width = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_main_column_padding_top = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_media_narrow_margin = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_right_icon_size = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_right_side_padding_top = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_small_icon_background_padding = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_small_icon_size_as_large = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_subtext_size = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_subtext_size;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_top_pad = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_top_pad;
+			global::Microsoft.AppCenter.Push.Android.Resource.Dimension.notification_top_pad_large_text = global::TailwindTraders.Mobile.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.ic_stat_notify_dot = global::TailwindTraders.Mobile.Droid.Resource.Drawable.ic_stat_notify_dot;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_action_background = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_action_background;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_bg = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_bg;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_bg_low = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_bg_low;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_bg_low_normal = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_bg_low_pressed = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_bg_normal = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_bg_normal;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_bg_normal_pressed = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_icon_background = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_icon_background;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_template_icon_bg = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_template_icon_low_bg = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notification_tile_bg = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notification_tile_bg;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::TailwindTraders.Mobile.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.action0 = global::TailwindTraders.Mobile.Droid.Resource.Id.action0;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.action_container = global::TailwindTraders.Mobile.Droid.Resource.Id.action_container;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.action_divider = global::TailwindTraders.Mobile.Droid.Resource.Id.action_divider;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.action_image = global::TailwindTraders.Mobile.Droid.Resource.Id.action_image;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.action_text = global::TailwindTraders.Mobile.Droid.Resource.Id.action_text;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.actions = global::TailwindTraders.Mobile.Droid.Resource.Id.actions;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.async = global::TailwindTraders.Mobile.Droid.Resource.Id.async;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.blocking = global::TailwindTraders.Mobile.Droid.Resource.Id.blocking;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.cancel_action = global::TailwindTraders.Mobile.Droid.Resource.Id.cancel_action;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.chronometer = global::TailwindTraders.Mobile.Droid.Resource.Id.chronometer;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.end_padder = global::TailwindTraders.Mobile.Droid.Resource.Id.end_padder;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.forever = global::TailwindTraders.Mobile.Droid.Resource.Id.forever;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.icon = global::TailwindTraders.Mobile.Droid.Resource.Id.icon;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.icon_group = global::TailwindTraders.Mobile.Droid.Resource.Id.icon_group;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.info = global::TailwindTraders.Mobile.Droid.Resource.Id.info;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.italic = global::TailwindTraders.Mobile.Droid.Resource.Id.italic;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.line1 = global::TailwindTraders.Mobile.Droid.Resource.Id.line1;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.line3 = global::TailwindTraders.Mobile.Droid.Resource.Id.line3;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.media_actions = global::TailwindTraders.Mobile.Droid.Resource.Id.media_actions;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.normal = global::TailwindTraders.Mobile.Droid.Resource.Id.normal;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.notification_background = global::TailwindTraders.Mobile.Droid.Resource.Id.notification_background;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.notification_main_column = global::TailwindTraders.Mobile.Droid.Resource.Id.notification_main_column;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.notification_main_column_container = global::TailwindTraders.Mobile.Droid.Resource.Id.notification_main_column_container;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.right_icon = global::TailwindTraders.Mobile.Droid.Resource.Id.right_icon;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.right_side = global::TailwindTraders.Mobile.Droid.Resource.Id.right_side;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.status_bar_latest_event_content = global::TailwindTraders.Mobile.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.text = global::TailwindTraders.Mobile.Droid.Resource.Id.text;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.text2 = global::TailwindTraders.Mobile.Droid.Resource.Id.text2;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.time = global::TailwindTraders.Mobile.Droid.Resource.Id.time;
+			global::Microsoft.AppCenter.Push.Android.Resource.Id.title = global::TailwindTraders.Mobile.Droid.Resource.Id.title;
+			global::Microsoft.AppCenter.Push.Android.Resource.Integer.cancel_button_image_alpha = global::TailwindTraders.Mobile.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Microsoft.AppCenter.Push.Android.Resource.Integer.google_play_services_version = global::TailwindTraders.Mobile.Droid.Resource.Integer.google_play_services_version;
+			global::Microsoft.AppCenter.Push.Android.Resource.Integer.status_bar_notification_info_maxnum = global::TailwindTraders.Mobile.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_action = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_action;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_action_tombstone = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_action_tombstone;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_media_action = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_media_action;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_media_cancel_action = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_big_media = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_big_media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_big_media_custom = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_big_media_narrow = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_custom_big = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_custom_big;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_icon_group = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_icon_group;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_lines_media = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_lines_media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_media = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_media_custom = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_media_custom;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_part_chronometer = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Microsoft.AppCenter.Push.Android.Resource.Layout.notification_template_part_time = global::TailwindTraders.Mobile.Droid.Resource.Layout.notification_template_part_time;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::TailwindTraders.Mobile.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.fcm_fallback_notification_channel_label = global::TailwindTraders.Mobile.Droid.Resource.String.fcm_fallback_notification_channel_label;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.library_name = global::TailwindTraders.Mobile.Droid.Resource.String.library_name;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.status_bar_notification_info_overflow = global::TailwindTraders.Mobile.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::TailwindTraders.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::TailwindTraders.Mobile.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Microsoft.AppCenter.Push.Android.Resource.Style.Widget_Compat_NotificationActionText = global::TailwindTraders.Mobile.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamilyFont = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamilyFont;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamilyFont_font = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::TailwindTraders.Mobile.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_in = global::TailwindTraders.Mobile.Droid.Resource.Animation.abc_fade_in;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_out = global::TailwindTraders.Mobile.Droid.Resource.Animation.abc_fade_out;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::TailwindTraders.Mobile.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -10833,187 +10958,190 @@ namespace TailwindTraders.Mobile.Droid
 			public const int ic_mtrl_chip_close_circle = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_vol_type_speaker_dark = 2131165464;
+			public const int ic_stat_notify_dot = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_vol_type_speaker_group_dark = 2131165465;
+			public const int ic_vol_type_speaker_dark = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_vol_type_speaker_group_light = 2131165466;
+			public const int ic_vol_type_speaker_group_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_vol_type_speaker_light = 2131165467;
+			public const int ic_vol_type_speaker_group_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_vol_type_tv_dark = 2131165468;
+			public const int ic_vol_type_speaker_light = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_vol_type_tv_light = 2131165469;
+			public const int ic_vol_type_tv_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int INTENTIONALLY_EMPTY = 2131165470;
+			public const int ic_vol_type_tv_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int logo_header_b = 2131165471;
+			public const int INTENTIONALLY_EMPTY = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int logo_horizontal_b = 2131165472;
+			public const int logo_header_b = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int logo_microsoft_w = 2131165473;
+			public const int logo_horizontal_b = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int logo_vertical_w = 2131165474;
+			public const int logo_microsoft_w = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int mr_button_connected_dark = 2131165475;
+			public const int logo_vertical_w = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int mr_button_connected_light = 2131165476;
+			public const int mr_button_connected_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int mr_button_connecting_dark = 2131165477;
+			public const int mr_button_connected_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int mr_button_connecting_light = 2131165478;
+			public const int mr_button_connecting_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int mr_button_dark = 2131165479;
+			public const int mr_button_connecting_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int mr_button_light = 2131165480;
+			public const int mr_button_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int mr_dialog_close_dark = 2131165481;
+			public const int mr_button_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int mr_dialog_close_light = 2131165482;
+			public const int mr_dialog_close_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int mr_dialog_material_background_dark = 2131165483;
+			public const int mr_dialog_close_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int mr_dialog_material_background_light = 2131165484;
+			public const int mr_dialog_material_background_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int mr_group_collapse = 2131165485;
+			public const int mr_dialog_material_background_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int mr_group_expand = 2131165486;
+			public const int mr_group_collapse = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int mr_media_pause_dark = 2131165487;
+			public const int mr_group_expand = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mr_media_pause_light = 2131165488;
+			public const int mr_media_pause_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mr_media_play_dark = 2131165489;
+			public const int mr_media_pause_light = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mr_media_play_light = 2131165490;
+			public const int mr_media_play_dark = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mr_media_stop_dark = 2131165491;
+			public const int mr_media_play_light = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mr_media_stop_light = 2131165492;
+			public const int mr_media_stop_dark = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mr_vol_type_audiotrack_dark = 2131165493;
+			public const int mr_media_stop_light = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mr_vol_type_audiotrack_light = 2131165494;
+			public const int mr_vol_type_audiotrack_dark = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mtrl_snackbar_background = 2131165495;
+			public const int mr_vol_type_audiotrack_light = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mtrl_tabs_default_indicator = 2131165496;
+			public const int mtrl_snackbar_background = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int navigation_empty_icon = 2131165497;
+			public const int mtrl_tabs_default_indicator = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int Next = 2131165498;
+			public const int navigation_empty_icon = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int notification_action_background = 2131165499;
+			public const int Next = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int notification_bg = 2131165500;
+			public const int notification_action_background = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int notification_bg_low = 2131165501;
+			public const int notification_bg = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int notification_bg_low_normal = 2131165502;
+			public const int notification_bg_low = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int notification_bg_low_pressed = 2131165503;
+			public const int notification_bg_low_normal = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int notification_bg_normal = 2131165504;
+			public const int notification_bg_low_pressed = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int notification_bg_normal_pressed = 2131165505;
+			public const int notification_bg_normal = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int notification_icon_background = 2131165506;
+			public const int notification_bg_normal_pressed = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int notification_template_icon_bg = 2131165507;
+			public const int notification_icon_background = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int notification_template_icon_low_bg = 2131165508;
+			public const int notification_template_icon_bg = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int notification_tile_bg = 2131165509;
+			public const int notification_template_icon_low_bg = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int notify_panel_notification_icon_bg = 2131165510;
+			public const int notification_tile_bg = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int photo = 2131165511;
+			public const int notify_panel_notification_icon_bg = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int Prev = 2131165512;
+			public const int photo = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int recommended_bathrooms = 2131165513;
+			public const int Prev = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int recommended_hinges = 2131165514;
+			public const int recommended_bathrooms = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int recommended_lighting = 2131165515;
+			public const int recommended_hinges = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int recommended_plants = 2131165516;
+			public const int recommended_lighting = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int recommended_powertools = 2131165517;
+			public const int recommended_plants = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int search = 2131165518;
+			public const int recommended_powertools = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int splash_background = 2131165519;
+			public const int search = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int splash_screen = 2131165520;
+			public const int splash_background = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int star = 2131165521;
+			public const int splash_screen = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int tooltip_frame_dark = 2131165522;
+			public const int star = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int tooltip_frame_light = 2131165523;
+			public const int tooltip_frame_dark = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int Up = 2131165524;
+			public const int tooltip_frame_light = 2131165524;
+			
+			// aapt resource value: 0x7F070155
+			public const int Up = 2131165525;
 			
 			static Drawable()
 			{
@@ -11855,37 +11983,40 @@ namespace TailwindTraders.Mobile.Droid
 			public const int design_tab_indicator_anim_duration_ms = 2131296264;
 			
 			// aapt resource value: 0x7F090009
-			public const int hide_password_duration = 2131296265;
+			public const int google_play_services_version = 2131296265;
 			
 			// aapt resource value: 0x7F09000A
-			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296266;
+			public const int hide_password_duration = 2131296266;
 			
 			// aapt resource value: 0x7F09000B
-			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296267;
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296267;
 			
 			// aapt resource value: 0x7F09000C
-			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296268;
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296268;
 			
 			// aapt resource value: 0x7F09000D
-			public const int mr_update_routes_delay_ms = 2131296269;
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296269;
 			
 			// aapt resource value: 0x7F09000E
-			public const int mtrl_btn_anim_delay_ms = 2131296270;
+			public const int mr_update_routes_delay_ms = 2131296270;
 			
 			// aapt resource value: 0x7F09000F
-			public const int mtrl_btn_anim_duration_ms = 2131296271;
+			public const int mtrl_btn_anim_delay_ms = 2131296271;
 			
 			// aapt resource value: 0x7F090010
-			public const int mtrl_chip_anim_duration = 2131296272;
+			public const int mtrl_btn_anim_duration_ms = 2131296272;
 			
 			// aapt resource value: 0x7F090011
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131296273;
+			public const int mtrl_chip_anim_duration = 2131296273;
 			
 			// aapt resource value: 0x7F090012
-			public const int show_password_duration = 2131296274;
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131296274;
 			
 			// aapt resource value: 0x7F090013
-			public const int status_bar_notification_info_maxnum = 2131296275;
+			public const int show_password_duration = 2131296275;
+			
+			// aapt resource value: 0x7F090014
+			public const int status_bar_notification_info_maxnum = 2131296276;
 			
 			static Integer()
 			{
@@ -12414,115 +12545,142 @@ namespace TailwindTraders.Mobile.Droid
 			public const int character_counter_pattern = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int fab_transformation_scrim_behavior = 2131558464;
+			public const int common_google_play_services_unknown_issue = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int fab_transformation_sheet_behavior = 2131558465;
+			public const int default_web_client_id = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int hello = 2131558466;
+			public const int fab_transformation_scrim_behavior = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int hide_bottom_view_on_scroll_behavior = 2131558467;
+			public const int fab_transformation_sheet_behavior = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int library_name = 2131558468;
+			public const int fcm_fallback_notification_channel_label = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_button_content_description = 2131558469;
+			public const int firebase_database_url = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mr_cast_button_connected = 2131558470;
+			public const int gcm_defaultSenderId = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mr_cast_button_connecting = 2131558471;
+			public const int google_api_key = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int mr_cast_button_disconnected = 2131558472;
+			public const int google_app_id = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int mr_cast_dialog_title_view_placeholder = 2131558473;
+			public const int google_crash_reporting_api_key = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int mr_chooser_searching = 2131558474;
+			public const int google_storage_bucket = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int mr_chooser_title = 2131558475;
+			public const int hello = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mr_controller_album_art = 2131558476;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mr_controller_casting_screen = 2131558477;
+			public const int library_name = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mr_controller_close_description = 2131558478;
+			public const int mr_button_content_description = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int mr_controller_collapse_group = 2131558479;
+			public const int mr_cast_button_connected = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int mr_controller_disconnect = 2131558480;
+			public const int mr_cast_button_connecting = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mr_controller_expand_group = 2131558481;
+			public const int mr_cast_button_disconnected = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mr_controller_no_info_available = 2131558482;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mr_controller_no_media_selected = 2131558483;
+			public const int mr_chooser_searching = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int mr_controller_pause = 2131558484;
+			public const int mr_chooser_title = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int mr_controller_play = 2131558485;
+			public const int mr_controller_album_art = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int mr_controller_stop = 2131558486;
+			public const int mr_controller_casting_screen = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int mr_controller_stop_casting = 2131558487;
+			public const int mr_controller_close_description = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int mr_controller_volume_slider = 2131558488;
+			public const int mr_controller_collapse_group = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int mr_dialog_device_header = 2131558489;
+			public const int mr_controller_disconnect = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int mr_dialog_route_header = 2131558490;
+			public const int mr_controller_expand_group = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int mr_system_route_name = 2131558491;
+			public const int mr_controller_no_info_available = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int mr_user_route_category_name = 2131558492;
+			public const int mr_controller_no_media_selected = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int mtrl_chip_close_icon_content_description = 2131558493;
+			public const int mr_controller_pause = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int password_toggle_content_description = 2131558494;
+			public const int mr_controller_play = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int path_password_eye = 2131558495;
+			public const int mr_controller_stop = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int path_password_eye_mask_strike_through = 2131558496;
+			public const int mr_controller_stop_casting = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int path_password_eye_mask_visible = 2131558497;
+			public const int mr_controller_volume_slider = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int path_password_strike_through = 2131558498;
+			public const int mr_dialog_device_header = 2131558498;
 			
 			// aapt resource value: 0x7F0D0063
-			public const int search_menu_title = 2131558499;
+			public const int mr_dialog_route_header = 2131558499;
 			
 			// aapt resource value: 0x7F0D0064
-			public const int status_bar_notification_info_overflow = 2131558500;
+			public const int mr_system_route_name = 2131558500;
+			
+			// aapt resource value: 0x7F0D0065
+			public const int mr_user_route_category_name = 2131558501;
+			
+			// aapt resource value: 0x7F0D0066
+			public const int mtrl_chip_close_icon_content_description = 2131558502;
+			
+			// aapt resource value: 0x7F0D0067
+			public const int password_toggle_content_description = 2131558503;
+			
+			// aapt resource value: 0x7F0D0068
+			public const int path_password_eye = 2131558504;
+			
+			// aapt resource value: 0x7F0D0069
+			public const int path_password_eye_mask_strike_through = 2131558505;
+			
+			// aapt resource value: 0x7F0D006A
+			public const int path_password_eye_mask_visible = 2131558506;
+			
+			// aapt resource value: 0x7F0D006B
+			public const int path_password_strike_through = 2131558507;
+			
+			// aapt resource value: 0x7F0D006C
+			public const int search_menu_title = 2131558508;
+			
+			// aapt resource value: 0x7F0D006D
+			public const int status_bar_notification_info_overflow = 2131558509;
 			
 			static String()
 			{

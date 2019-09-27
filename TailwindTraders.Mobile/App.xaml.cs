@@ -11,6 +11,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MonkeyCache.SQLite;
 using System;
+using Microsoft.AppCenter.Push;
+using Xamarin.Essentials;
+using Plugin.XSnack;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
@@ -48,7 +51,7 @@ namespace TailwindTraders.Mobile
 
             AppCenter.Start($"ios={DefaultSettings.AppCenteriOSSecret};" +
                   $"android={DefaultSettings.AppCenterAndroidSecret};",
-                  typeof(Analytics), typeof(Crashes));
+                  typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
         // It provides a navigatable section for elements which aren't explicitly defined within the Shell. For example,
@@ -115,14 +118,6 @@ namespace TailwindTraders.Mobile
 
             DependencyService.Register<FakeAuthenticationService>();
 
-            //if (DefaultSettings.UseFakeAuthentication)
-            //{
-            //    DependencyService.Register<FakeAuthenticationService>();
-            //}
-            //else
-            //{
-            //    DependencyService.Register<AuthenticationService>();
-            //}
         }
 #pragma warning restore CS0162 
 
@@ -130,27 +125,32 @@ namespace TailwindTraders.Mobile
         {
             if (!AppCenter.Configured)
             {
-                //Push.PushNotificationReceived += (sender, e) =>
-                //{
-                //    // Add the notification message and title to the message
-                //    var summary = $"Push notification received:" +
-                //                        $"\n\tNotification title: {e.Title}" +
-                //                        $"\n\tMessage: {e.Message}";
+                Push.PushNotificationReceived += (sender, e) =>
+                {
+                    // Add the notification message and title to the message
+                    var summary = $"Push notification received:" +
+                                        $"\n\tNotification title: {e.Title}" +
+                                        $"\n\tMessage: {e.Message}";
 
-                //    // If there is custom data associated with the notification,
-                //    // print the entries
-                //    if (e.CustomData != null)
-                //    {
-                //        summary += "\n\tCustom data:\n";
-                //        foreach (var key in e.CustomData.Keys)
-                //        {
-                //            summary += $"\t\t{key} : {e.CustomData[key]}\n";
-                //        }
-                //    }
+                    // If there is custom data associated with the notification,
+                    // print the entries
+                    if (e.CustomData != null)
+                    {
+                        summary += "\n\tCustom data:\n";
+                        foreach (var key in e.CustomData.Keys)
+                        {
+                            summary += $"\t\t{key} : {e.CustomData[key]}\n";
+                        }
+                    }
 
-                //    // Send the notification summary to debug output
-                //    System.Diagnostics.Debug.WriteLine(summary);
-                //};
+                    // Send the notification summary to debug output
+                    System.Diagnostics.Debug.WriteLine(summary);
+                    MainThread.BeginInvokeOnMainThread(async () =>
+                    {
+                        var snack = DependencyService.Get<IXSnack>();
+                        await snack.ShowMessageAsync(e.Message);
+                    });
+                };
             }
         }
     }

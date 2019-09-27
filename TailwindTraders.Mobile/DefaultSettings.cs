@@ -17,7 +17,7 @@ namespace TailwindTraders.Mobile.Features.Settings
 
         public static string AccessToken = string.Empty;
 
-        public const string AppCenterAndroidSecret = "** ANDROID APP CENTER SECRET HERE **";
+        public const string AppCenterAndroidSecret = "d34ada1e-794f-407b-bd1d-12737ed0656c";
 
         public const string AppCenteriOSSecret = "dfa7ebd6-23a1-43e2-9fe0-c3129e7f16b9";
 
