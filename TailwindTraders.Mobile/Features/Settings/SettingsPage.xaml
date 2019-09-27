@@ -29,7 +29,7 @@
 
         <Label
           Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}"
-          Text="Root API URL" />
+          Text="Product Service API URL" />
 
         <Entry Text="{Binding RootApiUrl}">
 
