@@ -19,44 +19,43 @@ namespace TailwindTraders.Mobile
     public class ProductService : IProductService
     {
         readonly IConnectivityService connectivityService;
-        IProductsWebAPI webAPI;
+        IProductsWebAPI webAPI = null;
         readonly string allProductsKey = "allProducts";
 
         string productsBaseUrl = string.Empty;// "https://tailwindtraders-websitecd95.azurewebsites.net/api/v1";
+
+        RefitSettings productRefitSettings;
 
         public ProductService()
         {
             connectivityService = DependencyService.Get<IConnectivityService>();
 
-            productsBaseUrl = DefaultSettings.RootApiUrl;
+            productsBaseUrl = DefaultSettings.ProductsApiUrl;
 
-            var productsRefitSettings = new RefitSettings { ContentSerializer = new JsonContentSerializer(ProductPerDTOJsonConverter.Settings) };
-
-            webAPI = RestService.For<IProductsWebAPI>(
-                HttpClientFactory.Create(productsBaseUrl), productsRefitSettings
-            );
-
-            MessagingCenter.Subscribe<ProductsServiceUrlMessage>(this, ProductsServiceUrlMessage.MessageName, (msg) =>
-            {
-                productsBaseUrl = msg.ProductServiceUrl;
-
-                webAPI = RestService.For<IProductsWebAPI>(
-                    HttpClientFactory.Create(productsBaseUrl), productsRefitSettings
-                );
-            });
+            productRefitSettings = new RefitSettings { ContentSerializer = new JsonContentSerializer(ProductPerDTOJsonConverter.Settings) };                        
         }
 
         public async Task<ProductList> GetProductsAsync()
         {
-            //todo: check for internet - if nothing grab from the barrel
+            webAPI = null;
+
+            webAPI = RestService.For<IProductsWebAPI>(
+                HttpClientFactory.Create(productsBaseUrl), productRefitSettings
+            );
 
             var allProducts = await webAPI.GetProductsAsync();
 
-             return allProducts;
+            return allProducts;
         }
 
         public async Task<Product> GetProductDetailAsync(long productId)
         {
+            webAPI = null;
+
+            webAPI = RestService.For<IProductsWebAPI>(
+                HttpClientFactory.Create(productsBaseUrl), productRefitSettings
+            );
+
             var product = await webAPI.GetDetailAsync(productId);
 
             return product;
@@ -64,7 +63,9 @@ namespace TailwindTraders.Mobile
 
         public async Task<ProductList> GetProductsPerCategory(string category)
         {
-            //category = "homeappliances";
+            webAPI = RestService.For<IProductsWebAPI>(
+                HttpClientFactory.Create(productsBaseUrl), productRefitSettings
+            );
 
             var categoryProducts = await webAPI.GetProductsByCategoryAsync(category);
 

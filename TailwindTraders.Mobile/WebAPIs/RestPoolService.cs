@@ -20,7 +20,7 @@ namespace TailwindTraders.Mobile.Features.Common
 
         public RestPoolService()
         {
-            UpdateApiUrl(DefaultSettings.RootApiUrl);
+            UpdateApiUrl(DefaultSettings.ProductsApiUrl);
 
             SimilarProductsAPI = RestService.For<ISimilarProductsAPI>(
                 HttpClientFactory.Create(DefaultSettings.RootProductsWebApiUrl));

@@ -166,6 +166,59 @@ namespace TailwindTraders.Mobile.Features.Home
         {
             //await CrossMedia.Current.Initialize();
 
+            //var action = await Xamarin.Forms.Shell.Current.DisplayActionSheet("Take or Pick photo", "Cancel", "", "Take", "Pick");
+
+            //if (action == "Take")
+            //    await TakePhoto();
+            //else if (action == "Pick")
+            //    await PickPhoto();
+
+            await PickPhoto();
+        }
+
+        async Task TakePhoto()
+        {
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await Xamarin.Forms.Shell.Current.DisplayAlert("No Camera", "Taking photos not supported", "OK");
+                return;
+            }
+
+            var options = new StoreCameraMediaOptions { CompressionQuality = 50, PhotoSize = Plugin.Media.Abstractions.PhotoSize.Large };
+            var photo = await CrossMedia.Current.TakePhotoAsync(options);
+
+            if (photo == null)
+            {
+                await XSnackService.ShowMessageAsync("The taken photo was not sent");
+                return;
+            }
+
+            IsBusy = true;
+
+            var storage = new StorageService();
+            var sas = await storage.GetSharedAccessSignature();
+
+            if (string.IsNullOrEmpty(sas))
+            {
+                await XSnackService.ShowMessageAsync("There was an error uploading your photo");
+                IsBusy = false;
+                return;
+            }
+
+            var uploadSuccess = await storage.UploadPhoto(photo.GetStream(), sas);
+
+            IsBusy = false;
+
+            if (uploadSuccess)
+                await XSnackService.ShowMessageAsync("Photo uploaded to wishlist");
+            else
+                await XSnackService.ShowMessageAsync("There was an error uploading your photo");
+        }
+
+        async Task PickPhoto()
+        {
             var s = new StorageService();
 
             if (!CrossMedia.Current.IsPickPhotoSupported)

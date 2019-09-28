@@ -10,6 +10,7 @@ using Microsoft.Azure.Storage.Blob;
 using Microsoft.Azure.Storage;
 using TailwindTraders.Mobile.Helpers;
 using Xamarin.Forms;
+using TailwindTraders.Mobile.Features.Settings;
 
 namespace TailwindTraders.Mobile.Services
 {
@@ -21,24 +22,17 @@ namespace TailwindTraders.Mobile.Services
 
         public StorageService()
         {
-            functionsApi = RestService.For<IMod30FunctionsAPI>(HttpClientFactory.Create(functionUrl));
-
-            MessagingCenter.Subscribe<ProductsServiceUrlMessage>(this, ProductsServiceUrlMessage.MessageName,
-                (msg) => {
-                    storageAccountName = msg.StorageAccoutName;
-
-                    functionsApi = RestService.For<IMod30FunctionsAPI>(HttpClientFactory.Create(msg.FunctionsAppUrl));
-                });
+          
         }
         public async Task<string> GetSharedAccessSignature()
         {
             try
             {
+                functionUrl = DefaultSettings.FunctionAppUrl;
+
                 System.Net.Http.HttpClient client = new System.Net.Http.HttpClient();
 
-                var sas = await client.GetStringAsync("https://mod30back-app.azurewebsites.net/api/getsastoken");
-
-                //var sas = await ret.Content.ReadAsStringAsync();
+                var sas = await client.GetStringAsync($"{functionUrl}/getsastoken");
 
                 return sas;
             }
@@ -51,6 +45,10 @@ namespace TailwindTraders.Mobile.Services
 
         public async Task<IEnumerable<WishlistItem>> GetWishlistItems()
         {
+            functionsApi = null;
+            functionUrl = DefaultSettings.FunctionAppUrl;
+            functionsApi = RestService.For<IMod30FunctionsAPI>(functionUrl);
+
             return await functionsApi.GetWishlistItems();
         }
 
@@ -59,6 +57,8 @@ namespace TailwindTraders.Mobile.Services
             try
             {                
                 var creds = new Microsoft.Azure.Storage.Auth.StorageCredentials(sharedAccessSignature);
+
+                storageAccountName = DefaultSettings.StorageAccountName;
 
                 var account = new CloudStorageAccount(creds, storageAccountName, "core.windows.net", true);
 
