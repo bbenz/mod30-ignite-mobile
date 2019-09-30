@@ -33,7 +33,7 @@ namespace TailwindTraders.Mobile.Features.Settings
 
         public SettingsViewModel()
         {
-            rootApiUrl = DefaultSettings.RootApiUrl;
+            rootApiUrl = DefaultSettings.ProductsApiUrl;
             storageAccountName = DefaultSettings.StorageAccountName;
             functionAppUrl = DefaultSettings.FunctionAppUrl;
 
@@ -54,7 +54,9 @@ namespace TailwindTraders.Mobile.Features.Settings
                 return;
             }
 
-            DefaultSettings.RootApiUrl = rootApiUrl;
+            DefaultSettings.ProductsApiUrl = RootApiUrl;
+            DefaultSettings.StorageAccountName = StorageAccountName;
+            DefaultSettings.FunctionAppUrl = FunctionAppUrl;
 
             RestPoolService.UpdateApiUrl(rootApiUrl);
 

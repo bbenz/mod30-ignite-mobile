@@ -1,6 +1,7 @@
 using System;
 using Foundation;
 using Microsoft.AppCenter.Distribute;
+using Microsoft.AppCenter.Push;
 using Plugin.XSnack;
 using Sharpnado.Presentation.Forms.iOS;
 using TailwindTraders.Mobile.Features.Scanning;
@@ -9,6 +10,7 @@ using TailwindTraders.Mobile.IOS.Features.Scanning;
 using TailwindTraders.Mobile.IOS.Features.Scanning.Photo;
 using TouchTracking.iOS;
 using UIKit;
+using UserNotifications;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
@@ -29,8 +31,6 @@ namespace TailwindTraders.Mobile.IOS
             Forms.Init();
 
             RegisterPlatformServices();
-
-            InitTensorflowService();
 
             Distribute.DontCheckForUpdatesInDebug();
 #if ENABLE_TEST_CLOUD
@@ -66,20 +66,35 @@ namespace TailwindTraders.Mobile.IOS
             CarouselView.FormsPlugin.iOS.CarouselViewRenderer.Init();
             SharpnadoInitializer.Initialize();
             TouchRecognizer.Initialize();
-            TensorflowLiteService.DoNotStripMe();
         }
 
         private void RegisterPlatformServices()
         {
             DependencyService.Register<IXSnack, XSnackImplementation>();
             DependencyService.Register<IPlatformService, PlatformService>();
-            DependencyService.Register<TensorflowLiteService, TensorflowLiteService>();
         }
 
-        private void InitTensorflowService()
-        {
-            var tensorflowLiteService = DependencyService.Get<TensorflowLiteService>();
-            tensorflowLiteService.Initialize(tensorflowLiteService.LabelFilename, tensorflowLiteService.ModelFilename);
-        }
+        //public override void RegisteredForRemoteNotifications(UIApplication application, NSData deviceToken)
+        //{
+        //    Push.RegisteredForRemoteNotifications(deviceToken);
+        //}
+
+        //public override void FailedToRegisterForRemoteNotifications(UIApplication application, NSError error)
+        //{
+        //    Push.FailedToRegisterForRemoteNotifications(error);
+        //}
+
+        //public override void DidReceiveRemoteNotification(UIApplication application, NSDictionary userInfo, System.Action<UIBackgroundFetchResult> completionHandler)
+        //{
+        //    var result = Push.DidReceiveRemoteNotification(userInfo);
+        //    if (result)
+        //    {
+        //        completionHandler(UIBackgroundFetchResult.NewData);
+        //    }
+        //    else
+        //    {
+        //        completionHandler(UIBackgroundFetchResult.NoData);
+        //    }
+        //}        
     }
 }

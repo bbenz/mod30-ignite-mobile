@@ -68,18 +68,5 @@ Global
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$0.TextStylePolicy = $5
-		$2.inheritsSet = null
-		$2.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $3
-		$3.scope = text/x-csharp
-		$4.FileWidth = 80
-		$4.TabsToSpaces = True
-		$4.scope = text/plain
-		$5.inheritsSet = null
-		$5.scope = application/vnd.apple-xcode-storyboard
-		$0.XmlFormattingPolicy = $6
-		$6.inheritsSet = null
-		$6.scope = application/vnd.apple-xcode-storyboard
-		$0.StandardHeader = $7
 	EndGlobalSection
 EndGlobal

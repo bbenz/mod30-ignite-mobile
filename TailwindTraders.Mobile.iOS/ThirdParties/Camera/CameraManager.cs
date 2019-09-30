@@ -42,7 +42,7 @@ namespace TailwindTraders.Mobile.IOS.ThirdParties.Camera
         public AVCaptureSession captureSession;
 
         private readonly DispatchQueue queue = new DispatchQueue("videoQueue");
-        private readonly TensorflowLiteService tensorflowLiteService;
+        //private readonly TensorflowLiteService tensorflowLiteService;
 
         /// Property to determine if the manager should show the error for the user. If you want to show the errors
         /// yourself set this to false. If you want to add custom error UI set showErrorBlock property. Default value is
@@ -370,7 +370,7 @@ namespace TailwindTraders.Mobile.IOS.ThirdParties.Camera
 
             if (this.tensorflowAnalysis)
             {
-                colors = new int[TensorflowLiteService.ModelInputSize * TensorflowLiteService.ModelInputSize];
+                //colors = new int[TensorflowLiteService.ModelInputSize * TensorflowLiteService.ModelInputSize];
 
                 this.captureDelegate = new VideoCaptureDelegate(OnFrameCaptured);
 
@@ -542,7 +542,7 @@ namespace TailwindTraders.Mobile.IOS.ThirdParties.Camera
 
         public CameraManager()
         {
-            tensorflowLiteService = DependencyService.Get<TensorflowLiteService>();
+            //tensorflowLiteService = DependencyService.Get<TensorflowLiteService>();
         }
 
         public void FinishedRecording(
@@ -560,7 +560,7 @@ namespace TailwindTraders.Mobile.IOS.ThirdParties.Camera
                 {
                     CopyColorsFromImage(rotatedImage);
 
-                    tensorflowLiteService.Recognize(colors);
+                    //tensorflowLiteService.Recognize(colors);
                 }
             }
         }
@@ -592,12 +592,13 @@ namespace TailwindTraders.Mobile.IOS.ThirdParties.Camera
 
         private UIImage CreateScaledImage(UIImage image)
         {
-            var width = TensorflowLiteService.ModelInputSize;
-            var height = TensorflowLiteService.ModelInputSize;
+            //var width = TensorflowLiteService.ModelInputSize;
+            //var height = TensorflowLiteService.ModelInputSize;
 
-            var scaledImage = image.Scale(new CGSize(width, height));
+            //var scaledImage = image.Scale(new CGSize(width, height));
 
-            return scaledImage;
+            //return scaledImage;
+            return new UIImage();
         }
 
         private void SaveImage(UIImage image)
