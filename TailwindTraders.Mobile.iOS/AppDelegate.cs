@@ -10,6 +10,7 @@ using TailwindTraders.Mobile.IOS.Features.Scanning;
 using TailwindTraders.Mobile.IOS.Features.Scanning.Photo;
 using TouchTracking.iOS;
 using UIKit;
+using UserNotifications;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
@@ -73,27 +74,27 @@ namespace TailwindTraders.Mobile.IOS
             DependencyService.Register<IPlatformService, PlatformService>();
         }
 
-        public override void RegisteredForRemoteNotifications(UIApplication application, NSData deviceToken)
-        {
-            Push.RegisteredForRemoteNotifications(deviceToken);
-        }
+        //public override void RegisteredForRemoteNotifications(UIApplication application, NSData deviceToken)
+        //{
+        //    Push.RegisteredForRemoteNotifications(deviceToken);
+        //}
 
-        public override void FailedToRegisterForRemoteNotifications(UIApplication application, NSError error)
-        {
-            Push.FailedToRegisterForRemoteNotifications(error);
-        }
+        //public override void FailedToRegisterForRemoteNotifications(UIApplication application, NSError error)
+        //{
+        //    Push.FailedToRegisterForRemoteNotifications(error);
+        //}
 
-        public override void DidReceiveRemoteNotification(UIApplication application, NSDictionary userInfo, System.Action<UIBackgroundFetchResult> completionHandler)
-        {
-            var result = Push.DidReceiveRemoteNotification(userInfo);
-            if (result)
-            {
-                completionHandler(UIBackgroundFetchResult.NewData);
-            }
-            else
-            {
-                completionHandler(UIBackgroundFetchResult.NoData);
-            }
-        }
+        //public override void DidReceiveRemoteNotification(UIApplication application, NSDictionary userInfo, System.Action<UIBackgroundFetchResult> completionHandler)
+        //{
+        //    var result = Push.DidReceiveRemoteNotification(userInfo);
+        //    if (result)
+        //    {
+        //        completionHandler(UIBackgroundFetchResult.NewData);
+        //    }
+        //    else
+        //    {
+        //        completionHandler(UIBackgroundFetchResult.NoData);
+        //    }
+        //}        
     }
 }

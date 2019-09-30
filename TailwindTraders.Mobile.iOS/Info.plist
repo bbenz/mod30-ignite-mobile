@@ -22,9 +22,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Tailwind Traders</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.microsoft.tailwindtraderstour</string>
-	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>com.codemilltech.tailwindtraders</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
@@ -50,8 +48,6 @@
 	<string>This app needs access to microphone.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This app needs access to the photo gallery.</string>
-	<key>AppCenterAppDelegateForwarderEnabled</key>
-	<string>0</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowArbritraryLoads</key>
@@ -61,5 +57,9 @@
 	</dict>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>AppCenterUserNotificationCenterDelegateForwarderEnabled</key>
+	<string>0</string>
 </dict>
 </plist>
