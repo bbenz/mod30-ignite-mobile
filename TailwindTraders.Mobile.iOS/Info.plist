@@ -61,7 +61,5 @@
 	</dict>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>AppCenterAppDelegateForwarderEnabled</key>
-	<string>0</string>
 </dict>
 </plist>
