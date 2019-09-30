@@ -43,7 +43,7 @@ namespace TailwindTraders.Mobile
 
         public static TheShell Shell => Current.MainPage as TheShell;
 
-        protected override void OnStart()
+        protected async override void OnStart()
         {
             base.OnStart();
 
@@ -51,7 +51,7 @@ namespace TailwindTraders.Mobile
 
             AppCenter.Start($"ios={DefaultSettings.AppCenteriOSSecret};" +
                   $"android={DefaultSettings.AppCenterAndroidSecret};",
-                  typeof(Analytics), typeof(Crashes), typeof(Push));
+                  typeof(Analytics), typeof(Crashes), typeof(Push));           
         }
 
         // It provides a navigatable section for elements which aren't explicitly defined within the Shell. For example,
